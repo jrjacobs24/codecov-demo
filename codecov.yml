@@ -1,9 +1,11 @@
 coverage:
   status:
-    project: off
-    patch: off
+    project: false
+    patch: false
 
 flag_management:
+  default_rules:
+    carryforward: true
   individual_flags:
     - name: backend
       paths:
